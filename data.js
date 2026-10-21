@@ -213,16 +213,17 @@ const TEACHING = [
 /* Research philosophy — DRAFT written 2026-10-21 from Austin's answers; edit freely. */
 const RESEARCH = {
   pillars: [
-    { name: "Access", text: "Studying what happens to patients when the medications that work for them become hard to get, and how pharmacists can close that gap." },
-    { name: "Collaboration", text: "Education research and team-based projects that bring together faculty, clinicians, and learners." },
-    { name: "Learners as partners", text: "Bringing students into research so they gain community and experiences they carry past graduation." }
+    { name: "Follow the question", text: "I study questions that come up in my day-to-day work and genuinely interest me." },
+    { name: "Access & adherence", text: "Many of those questions start with what I see in clinic." },
+    { name: "Students & teamwork", text: "Bringing students and colleagues into the work along the way." }
   ],
   paragraphs: [
-    "My research interests center on a question I have seen play out in clinic: what happens to patients when they lose access to the medications that are working for them? I am drawn to medication access, adherence, and the role pharmacists can play in closing those gaps, and I am equally interested in how we prepare the next generation of pharmacists. My projects so far, from medication therapy management in community pharmacy to tuberculosis medication adherence and blood pressure monitoring, each pull on a piece of that thread.",
-    "This interest became personal through a patient I work with closely. When he lost access to Ozempic, he had to switch to insulin, going from one injection per week to multiple injections per day. He was frustrated, and his A1c rose. After three months, we were able to transition him to Trulicity and regain control. He was controlled, then he wasn’t, and now he is again. That experience showed me that access is not an administrative detail; it is a clinical outcome.",
-    "That patient’s story is what carried my first project where I took the reins: evaluating how changes to the NovoCare Patient Assistance Program eligibility criteria affected glycemic control for our clinic patients. Leading a clinic-based study is new territory for me, and it has been driven by a passion for access. We recently submitted an abstract from this work. I also love education research and team projects, where working alongside faculty, clinicians, and learners brings perspectives I could not reach on my own.",
-    "I value involving students in research. Inviting learners into a project allows me to share the work, and in return it gives them a community and experiences they can take with them after graduation.",
-    "Ultimately, I hope my research changes the way access to medications is handled, so that fewer patients go through what my patient did: controlled, then not, simply because a medication was out of reach."
+    "I don’t stick to one research area. I look for questions that come up in my day-to-day work and genuinely interest me. So far, those have landed in medication access, adherence, education, and even how AI is being used in academia.",
+    "A patient I work closely with is a good example. He was doing well on Ozempic until he lost access to it. We switched him to insulin, going from one shot a week to multiple shots a day. He was frustrated, and his A1c went up. Three months later, we got him on Trulicity. He was controlled, then he wasn’t, and now he is again.",
+    "That patient led to my first project where I’ve taken the reins: looking at how changes to NovoCare’s eligibility criteria affected glycemic control in our clinic. We just submitted an abstract for it.",
+    "Other questions show up when I’m not looking for them. After a difficult conversation with a provider, I kept thinking about why it went the way it did. The provider was tired and burned out, and that got me wondering how common burnout is among nurse practitioners. I’m now doing a literature search on NP burnout to see if there’s a study there.",
+    "I love bringing students into my research. It lets me share the work, and it gives them community and experience they can take with them after graduation.",
+    "Wherever the questions lead, I want my research to make a difference. For the access work, that means changing how access to medications is handled, so fewer patients go through what he did."
   ]
 };
 
@@ -238,6 +239,7 @@ const SCHOLARSHIP = {
     { title: "Tuberculosis Medication Adherence Simulation", where: PCP, date: "May 2026–Present", note: "Simulation conducted May 2026; analysis and manuscript in progress" },
     { title: "Impact of NovoCare Patient Assistance Program Eligibility Criteria Changes on Glycemic Control", where: "Family Health Clinic, Delphi & Monon, IN", date: "Jan. 2026–Present" },
     { title: "Impact of Blood Pressure Cuff Type on Blood Pressure Readings, Medication Adherence, and Patient-Perceived Health Literacy", where: PCP, date: "In progress" },
+    { title: "Use of AI in Academia: Comparing Frontier Models (ChatGPT, Claude, Gemini, Copilot)", where: PCP, date: "In progress", note: "Co-author" },
     { title: "Scoping Review Co-Author, Faculty PhD Dissertation", where: PCP, date: "In progress" }
   ]
 };
