@@ -34,9 +34,9 @@ const PROFILE = {
 
 const PHILOSOPHY = {
   pillars: [
-    { name: "Adaptability", text: "Every learner approaches challenges differently, so I tailor my methods to meet their unique needs." },
-    { name: "Empathy", text: "Open dialogue, active listening, and collaborative learning help learners feel safe to ask questions and grow confident." },
-    { name: "Lifelong learning", text: "Connecting theory to practice through real stories, then reflecting and giving feedback to keep improving." }
+    { name: "Adaptability", text: "Every learner approaches challenges differently, so I adjust how I teach." },
+    { name: "Empathy", text: "I want learners to feel comfortable asking questions, even when they’re nervous." },
+    { name: "Lifelong learning", text: "I reflect after every teaching experience and look for what to change next time." }
   ],
   paragraphs: [
     "As I reflect on what it means to be an educator, I recognize that my teaching philosophy is shaped by the experiences that have taught me adaptability, empathy, and a commitment to lifelong learning. These qualities guide my approach as I support learners in their professional and personal growth.",
