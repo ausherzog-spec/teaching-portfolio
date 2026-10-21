@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Austin Herzog, PharmD — Teaching Portfolio</title>
+<meta name="description" content="Teaching portfolio of Austin Herzog, PharmD, Academic and Ambulatory Care Fellow at Purdue University College of Pharmacy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="#top" class="brand"><span class="mono">AH</span><span class="brand-name">Austin Herzog, PharmD</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#scholarship">Scholarship</a>
+      <a href="#background">Background</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow">Teaching Portfolio</p>
+      <h1 id="name"></h1>
+      <p class="hero-role"><span id="role"></span><br><span id="org" class="muted"></span></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#teaching">Explore my teaching</a>
+        <a class="btn" id="cv-btn" href="#" download>Download CV</a>
+      </div>
+    </div>
+    <figure class="hero-photo"><img id="photo" alt="Portrait of Austin Herzog"></figure>
+  </section>
+
+  <section class="wrap stats" id="stats" aria-label="Teaching at a glance"></section>
+
+  <section class="section wrap" id="about">
+    <div class="section-head"><p class="kicker">01</p><h2>About</h2></div>
+    <div class="prose" id="about-text"></div>
+  </section>
+
+  <section class="section band" id="philosophy">
+    <div class="wrap">
+      <div class="section-head"><p class="kicker">02</p><h2>Teaching Philosophy</h2></div>
+      <div class="pillars" id="pillars"></div>
+      <div class="prose statement" id="statement"></div>
+      <button class="link-btn" id="statement-toggle" aria-expanded="false">Read the full statement</button>
+    </div>
+  </section>
+
+  <section class="section wrap" id="teaching">
+    <div class="section-head"><p class="kicker">03</p><h2>Teaching Experience</h2>
+      <p class="lede">Lectures, labs, topic discussions, and experiential precepting across residency and fellowship. Entries marked <span class="dot-inline"></span> include a reflection and supporting evidence.</p>
+    </div>
+    <div class="filters" role="toolbar" aria-label="Filter teaching by type" id="filters"></div>
+    <div id="timeline"></div>
+  </section>
+
+  <section class="section band" id="scholarship">
+    <div class="wrap">
+      <div class="section-head"><p class="kicker">04</p><h2>Scholarship</h2></div>
+      <div class="grid-2">
+        <div><h3 class="sub">Publication</h3><ul class="list" id="pubs"></ul>
+             <h3 class="sub">Poster presentations</h3><ul class="list" id="posters"></ul></div>
+        <div><h3 class="sub">Research projects</h3><ul class="list" id="research"></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="background">
+    <div class="section-head"><p class="kicker">05</p><h2>Background &amp; Recognition</h2></div>
+    <div class="grid-2">
+      <div><h3 class="sub">Training</h3><ol class="steps" id="training"></ol></div>
+      <div>
+        <h3 class="sub">Recognition &amp; credentials</h3><ul class="list compact" id="honors"></ul>
+        <h3 class="sub">Documents</h3>
+        <div class="docs" id="docs"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <h2>Let’s connect</h2>
+      <p class="muted">For teaching, precepting, or collaboration inquiries.</p>
+      <a class="btn primary" id="email-btn"></a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap footer"><span id="foot"></span></footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
