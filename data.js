@@ -214,14 +214,15 @@ const TEACHING = [
 const RESEARCH = {
   pillars: [
     { name: "Follow the question", text: "I study questions that come up in my day-to-day work and genuinely interest me." },
-    { name: "Access & adherence", text: "Many of those questions start with what I see in clinic." },
+    { name: "Clinic & classroom", text: "Access, adherence, education, and AI, starting with what I see in clinic and in teaching." },
     { name: "Students & teamwork", text: "Bringing students and colleagues into the work along the way." }
   ],
   paragraphs: [
-    "I don’t stick to one research area. I look for questions that come up in my day-to-day work and genuinely interest me. So far, those have landed in medication access, adherence, education, and even how AI is being used in academia.",
+    "I don’t stick to one research area. I look for questions that come up in my day-to-day work and genuinely interest me. So far, those have landed in medication access, adherence, education, and AI.",
     "A patient I work closely with is a good example. He was doing well on Ozempic until he lost access to it. We switched him to insulin, going from one shot a week to multiple shots a day. He was frustrated, and his A1c went up. Three months later, we got him on Trulicity. He was controlled, then he wasn’t, and now he is again.",
     "That patient led to my first project where I’ve taken the reins: looking at how changes to NovoCare’s eligibility criteria affected glycemic control in our clinic. We just submitted an abstract for it.",
     "Other questions show up when I’m not looking for them. After a difficult conversation with a provider, I kept thinking about why it went the way it did. The provider was tired and burned out, and that got me wondering how common burnout is among nurse practitioners. I’m now doing a literature search on NP burnout to see if there’s a study there.",
+    "AI is another area I keep coming back to. Outside of the clinic, I work in AI training, where I review and evaluate how AI models respond to prompts, including clinical scenarios. That work ties right into a project I’m co-authoring that compares how ChatGPT, Claude, Gemini, and Copilot are being used in academia. These tools are changing quickly, and students and patients are already using them. I want to understand them well enough to teach with them responsibly.",
     "I love bringing students into my research. It lets me share the work, and it gives them community and experience they can take with them after graduation.",
     "Wherever the questions lead, I want my research to make a difference. For the access work, that means changing how access to medications is handled, so fewer patients go through what he did."
   ]
