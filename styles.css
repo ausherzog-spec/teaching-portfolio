@@ -82,6 +82,7 @@ p { margin: 0; }
 .sub { font-size: 1.25rem; margin: 0 0 16px; }
 .sub:not(:first-child) { margin-top: 40px; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+.scholarship-lists { margin-top: 56px; padding-top: 48px; border-top: 1px solid var(--line); }
 
 /* Philosophy */
 .pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 40px; }

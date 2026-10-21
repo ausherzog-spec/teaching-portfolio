@@ -210,6 +210,22 @@ const TEACHING = [
     } }
 ];
 
+/* Research philosophy — DRAFT written 2026-10-21 from Austin's answers; edit freely. */
+const RESEARCH = {
+  pillars: [
+    { name: "Access", text: "Studying what happens to patients when the medications that work for them become hard to get, and how pharmacists can close that gap." },
+    { name: "Collaboration", text: "Education research and team-based projects that bring together faculty, clinicians, and learners." },
+    { name: "Learners as partners", text: "Bringing students into research so they gain community and experiences they carry past graduation." }
+  ],
+  paragraphs: [
+    "My research interests center on a question I have seen play out in clinic: what happens to patients when they lose access to the medications that are working for them? I am drawn to medication access, adherence, and the role pharmacists can play in closing those gaps, and I am equally interested in how we prepare the next generation of pharmacists. My projects so far, from medication therapy management in community pharmacy to tuberculosis medication adherence and blood pressure monitoring, each pull on a piece of that thread.",
+    "This interest became personal through a patient I work with closely. When he lost access to Ozempic, he had to switch to insulin, going from one injection per week to multiple injections per day. He was frustrated, and his A1c rose. After three months, we were able to transition him to Trulicity and regain control. He was controlled, then he wasn’t, and now he is again. That experience showed me that access is not an administrative detail; it is a clinical outcome.",
+    "That patient’s story is what carried my first project where I took the reins: evaluating how changes to the NovoCare Patient Assistance Program eligibility criteria affected glycemic control for our clinic patients. Leading a clinic-based study is new territory for me, and it has been driven by a passion for access. We recently submitted an abstract from this work. I also love education research and team projects, where working alongside faculty, clinicians, and learners brings perspectives I could not reach on my own.",
+    "I value involving students in research. Inviting learners into a project allows me to share the work, and in return it gives them a community and experiences they can take with them after graduation.",
+    "Ultimately, I hope my research changes the way access to medications is handled, so that fewer patients go through what my patient did: controlled, then not, simply because a medication was out of reach."
+  ]
+};
+
 const SCHOLARSHIP = {
   publications: [
     { cite: "Hooper CE, Riley-Jensen EG, Sosinski L, <b>Herzog AM</b>, Snyder ME. Frequency and characteristics of prescription adaptations requested and made by chain community pharmacists.", venue: "Journal of the American Pharmacists Association", status: "In press" }
@@ -235,6 +251,7 @@ const TRAINING = [
 
 const HONORS = [
   { title: "Preceptor of the Year Award Nomination", date: "May 2026" },
+  { title: "Indiana Health Excellence Certificate (INHEC)", date: "May 2026" },
   { title: "APhA Incentive Grant Recipient", date: "Oct. 2024" }
 ];
 

@@ -36,11 +36,18 @@ $("stats").innerHTML = stats.map(([n, l]) => `<div class="stat"><span class="sta
 $("pillars").innerHTML = PHILOSOPHY.pillars.map((p, i) =>
   `<div class="pillar"><span class="pillar-i">0${i + 1}</span><h3>${esc(p.name)}</h3><p>${esc(p.text)}</p></div>`).join("");
 $("statement").innerHTML = PHILOSOPHY.paragraphs.map((p, i) => `<p${i > 1 ? ' class="more"' : ""}>${esc(p)}</p>`).join("");
-$("statement-toggle").addEventListener("click", (e) => {
-  const open = $("statement").classList.toggle("open");
+const toggle = (btn, box) => $(btn).addEventListener("click", (e) => {
+  const open = $(box).classList.toggle("open");
   e.currentTarget.setAttribute("aria-expanded", open);
   e.currentTarget.textContent = open ? "Show less" : "Read the full statement";
 });
+toggle("statement-toggle", "statement");
+
+// Research philosophy
+$("r-pillars").innerHTML = RESEARCH.pillars.map((p, i) =>
+  `<div class="pillar"><span class="pillar-i">0${i + 1}</span><h3>${esc(p.name)}</h3><p>${esc(p.text)}</p></div>`).join("");
+$("r-statement").innerHTML = RESEARCH.paragraphs.map((p, i) => `<p${i > 1 ? ' class="more"' : ""}>${esc(p)}</p>`).join("");
+toggle("r-toggle", "r-statement");
 
 // Teaching timeline
 const academicYear = (d) => { const [y, m] = d.split("-").map(Number); return m >= 7 ? y : y - 1; };
