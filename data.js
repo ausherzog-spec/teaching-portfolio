@@ -235,40 +235,7 @@ const TRAINING = [
 
 const HONORS = [
   { title: "Preceptor of the Year Award Nomination", date: "May 2026" },
-  { title: "APhA Incentive Grant Recipient", date: "Oct. 2024" },
-  { title: "Dean’s List, Purdue University", date: "Dec. 2020" },
-  { title: "Derek & Jennifer Schemenaur Asay Scholarship", date: "Aug. 2020" },
-  { title: "Semester Honors, Purdue University", date: "May 2019" }
-];
-
-const CREDENTIALS = [
-  { title: "Pharmacist, Indiana State Board of Pharmacy", date: "Sept. 2024" },
-  { title: "Indiana Health Excellence Certificate (INHEC)", date: "May 2026" },
-  { title: "Yellow Fever Certification", date: "Nov. 2024" },
-  { title: "CDC Travel Health Certification", date: "Oct. 2024" },
-  { title: "Birth Control Pharmacist Certificate of Completion", date: "Oct. 2024" },
-  { title: "BLS Certification", date: "Oct. 2024" },
-  { title: "HIPAA Certificate", date: "Jun. 2024" },
-  { title: "QPR Certification", date: "Sept. 2021" },
-  { title: "Rx for Change: Clinician-Assisted Tobacco Cessation", date: "Aug. 2021" },
-  { title: "Purdue Immunization Training Certificate", date: "Jan. 2021" },
-  { title: "Purdue Blood-Borne Pathogen Training", date: "Dec. 2020" }
-];
-
-const SERVICE = [
-  { title: "Purdue University Pharmacy Vaccine Clinic", date: "Sept.–Oct. 2024" },
-  { title: "Purdue University Industry Pharmacist Organization", date: "Sept. 2021–Aug. 2022" },
-  { title: "Dean’s Advisory Council Meeting", date: "Sept. 2021–Oct. 2022" },
-  { title: "Purdue University College of Pharmacy Orientation Program", date: "Aug. 2021" },
-  { title: "Purdue Homecoming Royalty Co-Coordinator", date: "Feb.–Sept. 2018" },
-  { title: "Purdue Student Union Board", date: "Sept. 2017–Aug. 2019" },
-  { title: "Spirits and Traditions Committee Member", date: "Sept. 2017–Aug. 2019" }
-];
-
-const VOLUNTEER = [
-  { title: "St. Vincent-DePaul Food Pantry — Healthy Nudges", where: "Indianapolis, IN", date: "Jul. 2024–Jun. 2025" },
-  { title: "Porter County Swine Committee — Swine Show Ring Hand", where: "Valparaiso, IN", date: "Jul. 2018–Jul. 2023" },
-  { title: "Valparaiso Turkey Trot — Water Station Volunteer", where: "Valparaiso, IN", date: "Nov. 2018–2019" }
+  { title: "APhA Incentive Grant Recipient", date: "Oct. 2024" }
 ];
 
 const LOGS = [

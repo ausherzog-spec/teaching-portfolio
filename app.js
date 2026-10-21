@@ -98,8 +98,5 @@ $("research").innerHTML = SCHOLARSHIP.research.map((r) => `<li><p class="strong"
 $("training").innerHTML = TRAINING.map((t) => `<li><span class="muted small">${esc(t.date)}</span><p class="strong">${esc(t.title)}</p><span class="small">${esc(t.where)}</span>${t.note ? `<span class="muted small">${esc(t.note)}</span>` : ""}</li>`).join("");
 const compact = (list) => list.map((h) => `<li><p>${esc(h.title)}${h.where ? `<span class="muted small block">${esc(h.where)}</span>` : ""}</p><span class="muted small">${esc(h.date)}</span></li>`).join("");
 $("honors").innerHTML = compact(HONORS);
-$("credentials").innerHTML = compact(CREDENTIALS);
-$("service").innerHTML = compact(SERVICE);
-$("volunteer").innerHTML = compact(VOLUNTEER);
 $("docs").innerHTML = [{ label: `Curriculum Vitae (${PROFILE.cvUpdated})`, url: PROFILE.cv, primary: true }, ...LOGS]
   .map((d) => `<a class="doc${d.primary ? " primary" : ""}" href="${esc(d.url)}" ${d.primary ? "download" : 'target="_blank" rel="noopener"'}><span>${esc(d.label)}</span><span aria-hidden="true">${d.primary ? "↓" : "↗"}</span></a>`).join("");
