@@ -34,18 +34,22 @@ const PROFILE = {
 
 const PHILOSOPHY = {
   pillars: [
-    { name: "Adaptability", text: "Every learner approaches challenges differently, so I adjust how I teach." },
-    { name: "Empathy", text: "I want learners to feel comfortable asking questions, even when they’re nervous." },
-    { name: "Lifelong learning", text: "I reflect after every teaching experience and look for what to change next time." }
+    { name: "Believing they can", text: "Learners do better when they believe they can do it. Bandura calls this self-efficacy." },
+    { name: "Reading the learner", text: "I adjust how I build that confidence based on the learner and the moment." },
+    { name: "Reflecting and adjusting", text: "I reflect after every teaching experience and look for what to change next time." }
   ],
   paragraphs: [
-    "As I reflect on what it means to be an educator, I recognize that my teaching philosophy is shaped by the experiences that have taught me adaptability, empathy, and a commitment to lifelong learning. These qualities guide my approach as I support learners in their professional and personal growth.",
-    "One experience that shaped my philosophy was assisting with our pharmacy’s vaccination clinic. We graciously accept current pharmacy students as volunteers, as they are an integral part of making these clinics so successful. During one clinic, a learner approached me expressing nervousness and fear, which had caused them to lose confidence in their abilities. I encouraged them by creating an open environment where they felt comfortable asking questions. I also reminded them that we wouldn’t have asked them to participate if we didn’t believe in their capabilities. After that conversation, the learner carried out vaccine administration with a wide smile, expressing joy and a sense of confidence. Later, they approached me to share their gratitude for instilling that confidence in them. This experience taught me the importance of adaptability and empathy—recognizing that every learner approaches challenges differently and tailoring my methods to meet their unique needs. Whether I’m collaborating on patient care cases, guiding topic discussions, or mentoring through projects, I strive to create an environment where learners feel supported and empowered to succeed.",
-    "My time working on patient-centered services like hormonal birth control consultations, travel health, and immunizations has reinforced the value of empathy and connection in teaching. Building trust with patients relates to the relationships I aim to create with learners. I encourage open dialogue, active listening, and collaborative learning to spark confidence. This approach ensures learners feel comfortable to ask questions and share perspectives.",
-    "I also emphasize the importance of connecting theory to practice by sharing personal stories that connect learning objectives and real-world applications. For example, I might share how a thoughtful, clear explanation helped a hesitant patient understand the benefits of vaccination, resulting in a positive health outcome. Furthermore, I could recall a family experience where education played a critical role in improving a loved one's health, highlighting the importance of empathy and communication. By implementing these relatable examples into my teaching, I help learners see how the knowledge they’re gaining applies to real-life scenarios. I’ve identified that these stories make the material more engaging.",
-    "Feedback and reflection are critical to my teaching approach. I believe constructive feedback should identify areas for improvement while recognizing what learners are doing well. During my fellowship, I have focused on providing real-time feedback in Professional Skills Labs and skills-based feedback during APPE rotations. I use goal-setting and midpoint evaluations to help guide learners, and I reflect on my own teaching after each experience to identify changes for the next session.",
-    "Lastly, I believe the role of an educator extends beyond the classroom. Some of the most impactful mentorship experiences I’ve had involved one-on-one conversations about goals, opportunities, challenges, and expressing belief. I aim to provide the same guidance to my learners by encouraging them to push their own boundaries, because I believe they are capable of doing so.",
-    "In summary, my teaching philosophy is built on adaptability, empathy, and the encouragement of lifelong learning. By creating a supportive learning environment, connecting personal experiences to real-world practice, and building meaningful relationships, I strive to prepare learners with the skills and confidence they need to excel."
+    "I build my teaching around one idea: learners do better when they believe they can do it. Albert Bandura called this self-efficacy. I didn’t know the name for it when I started teaching, but when I look back at my best moments with learners, that is what was happening.",
+    "One of those moments happened at our pharmacy’s vaccine clinic. A student volunteer came up to me nervous and scared, and it was shaking their confidence. I made sure they felt comfortable asking me anything, and I reminded them that we wouldn’t have asked them to be there if we didn’t believe in them. They went on to give vaccines with a big smile, and later thanked me for helping them feel confident.",
+    "Bandura describes four ways that belief gets built, and I use all of them depending on the learner and the setting. Sometimes I break a skill down so a student can get an early win. Sometimes I do it first so they can see it done. Sometimes they just need to hear from me that they’re capable. And sometimes the first job is calming their nerves. Reading the room and the learner’s body language tells me which one they need.",
+    "I also connect what we’re learning to real patients. I share stories from my own practice, like a hesitant patient who decided to get vaccinated after a clear explanation, or a time in my own family when education made a real difference. My favorite part of teaching is the light-bulb moment, when a learner finally connects the dots, and these stories are often what get them there.",
+    "Feedback and reflection keep me growing, too. I give real-time feedback in Professional Skills Labs and skills-based feedback on APPE rotations, and I use goal-setting and midpoint evaluations to guide learners. After every teaching experience, I reflect on what went well and what I would change. Donald Schön called this reflection-on-action. For me, it is how I went from being nervous in my first lecture to feeling comfortable and confident in front of a class.",
+    "Finally, I believe teaching goes beyond the classroom. Some of the most meaningful mentorship I’ve received came from one-on-one conversations where someone believed in me. I want to do the same for my learners and push them past what they think they can do, because I believe they are capable of it."
+  ],
+  sources: [
+    "Bandura A. Self-efficacy: toward a unifying theory of behavioral change. Psychol Rev. 1977;84(2):191–215.",
+    "Bandura A. Self-Efficacy: The Exercise of Control. W.H. Freeman; 1997.",
+    "Schön DA. The Reflective Practitioner: How Professionals Think in Action. Basic Books; 1983."
   ]
 };
 
@@ -213,18 +217,22 @@ const TEACHING = [
 /* Research philosophy — DRAFT written 2026-10-21 from Austin's answers; edit freely. */
 const RESEARCH = {
   pillars: [
-    { name: "Follow the question", text: "I study questions that come up in my day-to-day work and genuinely interest me." },
-    { name: "Clinic & classroom", text: "Access, adherence, education, and AI, starting with what I see in clinic and in teaching." },
-    { name: "Students & teamwork", text: "Bringing students and colleagues into the work along the way." }
+    { name: "Follow the question", text: "My research questions come from what I see in clinic and in the classroom." },
+    { name: "Scholarship of application", text: "Research that solves real problems and changes how care is delivered." },
+    { name: "Scholarship of teaching", text: "Studying how we teach, including how AI is changing it." }
   ],
   paragraphs: [
-    "I don’t stick to one research area. I look for questions that come up in my day-to-day work and genuinely interest me. So far, those have landed in medication access, adherence, education, and AI.",
+    "I don’t stick to one research area. My questions usually come from something that happens in clinic or the classroom that I can’t stop thinking about. Ernest Boyer’s model of scholarship gave me words for that. Boyer argued that scholarship is more than discovery. It also includes applying research to real problems, connecting ideas across fields, and studying teaching itself. Most of my work falls under application and teaching, and I want it to change how care is actually delivered.",
     "A patient I work closely with is a good example. He was doing well on Ozempic until he lost access to it. We switched him to insulin, going from one shot a week to multiple shots a day. He was frustrated, and his A1c went up. Three months later, we got him on Trulicity. He was controlled, then he wasn’t, and now he is again.",
-    "That patient led to my first project where I’ve taken the reins: looking at how changes to NovoCare’s eligibility criteria affected glycemic control in our clinic. We just submitted an abstract for it.",
+    "That patient led to my first project where I’ve taken the reins: looking at how changes to NovoCare’s eligibility criteria affected glycemic control in our clinic. We just submitted an abstract for it. Andersen’s Behavioral Model of Health Services Use helps me think about this work. It looks at the factors that make care possible, like insurance and assistance programs, which are exactly what changed for my patient.",
     "Other questions show up when I’m not looking for them. After a difficult conversation with a provider, I kept thinking about why it went the way it did. The provider was tired and burned out, and that got me wondering how common burnout is among nurse practitioners. I’m now doing a literature search on NP burnout to see if there’s a study there.",
     "AI is another area I keep coming back to. Outside of the clinic, I work in AI training, where I review and evaluate how AI models respond to prompts, including clinical scenarios. That work ties right into a project I’m co-authoring that compares how ChatGPT, Claude, Gemini, and Copilot are being used in academia. These tools are changing quickly, and students and patients are already using them. I want to understand them well enough to teach with them responsibly.",
     "I love bringing students into my research. It lets me share the work, and it gives them community and experience they can take with them after graduation.",
-    "Wherever the questions lead, I want my research to make a difference. For the access work, that means changing how access to medications is handled, so fewer patients go through what he did."
+    "Wherever the questions lead, I want my research to change practice. For the access work, that means changing how access to medications is handled, so fewer patients go through what he did."
+  ],
+  sources: [
+    "Boyer EL. Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation for the Advancement of Teaching; 1990.",
+    "Andersen RM. Revisiting the behavioral model and access to medical care: does it matter? J Health Soc Behav. 1995;36(1):1–10."
   ]
 };
 

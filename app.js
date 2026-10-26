@@ -42,12 +42,15 @@ const toggle = (btn, box) => $(btn).addEventListener("click", (e) => {
   e.currentTarget.textContent = open ? "Show less" : "Read the full statement";
 });
 toggle("statement-toggle", "statement");
+const sourcesHtml = (list) => `<div class="sources"><h4>Grounded in</h4><ul>${list.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+$("statement-toggle").insertAdjacentHTML("afterend", sourcesHtml(PHILOSOPHY.sources));
 
 // Research philosophy
 $("r-pillars").innerHTML = RESEARCH.pillars.map((p, i) =>
   `<div class="pillar"><span class="pillar-i">0${i + 1}</span><h3>${esc(p.name)}</h3><p>${esc(p.text)}</p></div>`).join("");
 $("r-statement").innerHTML = RESEARCH.paragraphs.map((p, i) => `<p${i > 1 ? ' class="more"' : ""}>${esc(p)}</p>`).join("");
 toggle("r-toggle", "r-statement");
+$("r-toggle").insertAdjacentHTML("afterend", sourcesHtml(RESEARCH.sources));
 
 // Teaching timeline
 const academicYear = (d) => { const [y, m] = d.split("-").map(Number); return m >= 7 ? y : y - 1; };
